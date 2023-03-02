@@ -1,0 +1,6 @@
+clear all;
+m = rand + 0.5;
+
+[w, t] = gamequiv(m);
+
+L_exact = @(x
